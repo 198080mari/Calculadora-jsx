@@ -9,22 +9,19 @@ display: flex;
 align-items: center;
 justify-content: center;
 `
-
 export const Content  = styled.div`
     background: #fff;
-    width: 35%;  /*lrgura da calculadora*/
+    width: 35%;  /*largura da calculadora*/
 `
-
 export const Row = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 `
-
 export const Column = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-`
+    `

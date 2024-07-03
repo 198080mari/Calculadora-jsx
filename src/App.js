@@ -86,9 +86,11 @@ const handleEquals = () => {
         <Button label="2" onClick={() => handleAddNumber('2')}/>
         <Button label="3" onClick={() => handleAddNumber('3')}/>
         <Button label="=" onClick={handleEquals} />
-      </Row>   
+      </Row>
+      <hr color='#d2d2d2' />   
     </Content>
   </Container>
   );
 }
+
 export default App;
