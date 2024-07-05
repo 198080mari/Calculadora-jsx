@@ -1,17 +1,17 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-width: 100%;
-height: 100vh;
-background-color: #fff;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
 
-display: flex;
-align-items: center;
-justify-content: center;
-`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    `
 export const Content  = styled.div`
     background: #fff;
-    width: 35%;  /*largura da calculadora*/
+    width: 600px;  
 `
 export const Row = styled.div`
     display: flex;
